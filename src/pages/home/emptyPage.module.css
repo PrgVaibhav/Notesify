@@ -1,0 +1,31 @@
+.empty_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 0 5px var(--divider-color);
+    max-width: max-content;
+    margin: auto;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.empty_container p {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.empty_container p a {
+    color: var(--accent-color-one);
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+    .empty_container {
+        max-width: 100%;
+    }
+
+    .empty_container p {
+        font-size: 1rem;
+    }
+}
