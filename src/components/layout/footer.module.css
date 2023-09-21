@@ -10,3 +10,15 @@
     font-weight: 600;
     letter-spacing: 1px;
 }
+
+.footer p a {
+    color: var(--accent-color-one);
+    text-decoration: none;
+    font-weight: 700;
+    transition: all 0.3s ease-in-out;
+}
+
+.footer p a:hover {
+    color: var(--accent-color-two);
+    text-decoration: underline;
+}
